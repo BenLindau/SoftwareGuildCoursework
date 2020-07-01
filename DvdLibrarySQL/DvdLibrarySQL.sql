@@ -1,0 +1,30 @@
+CREATE DATABASE DvdLibrary;
+
+USE DvdLibrary;
+
+CREATE TABLE Dvds (
+	DvdId INT(11) NOT NULL AUTO_INCREMENT,
+    Title VARCHAR(20) NOT NULL,
+    ReleaseDate DATE NOT NULL,
+    Director VARCHAR(20) NOT NULL,
+    Studio VARCHAR(20) NOT NULL,
+    rating VARCHAR(20) NOT NULL,
+    comments VARCHAR(100) NOT NULL,
+    PRIMARY KEY (DvdId)
+    ) ENGINE = InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT = 1;
+    
+    
+CREATE DATABASE DvdLibrary_Test;
+
+USE DvdLibrary_Test;
+
+CREATE TABLE Dvds (
+	DvdId INT(11) NOT NULL AUTO_INCREMENT,
+    Title VARCHAR(20) NOT NULL,
+    ReleaseDate DATE NOT NULL,
+    Director VARCHAR(20) NOT NULL,
+    Studio VARCHAR(20) NOT NULL,
+    rating VARCHAR(20) NOT NULL,
+    comments VARCHAR(100) NOT NULL,
+    PRIMARY KEY (DvdId)
+    ) ENGINE = InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT = 1;

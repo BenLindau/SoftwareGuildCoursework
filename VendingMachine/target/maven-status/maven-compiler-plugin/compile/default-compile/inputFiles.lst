@@ -1,0 +1,17 @@
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\Dao.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\DaoPersistenceException.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\PersistenceException.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\App\App.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\UserIO\UserIO.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\UserIO\View.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Service\ServiceLayer.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\DTO\Inventory.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Service\DataValidationException.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Advice\LoggingAdvice.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\AuditDao.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Controller\Controller.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\UserIO\UserIoImpl.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\AudtiDaoFileImpl.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Service\ServiceLayerImpl.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Dao\DaoFileImpl.java
+C:\Users\benli\Documents\ben-lindau-individual-work\VendingMachine\src\main\java\Service\DuplicateItemException.java

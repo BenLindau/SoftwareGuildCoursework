@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+    </head>
+    <style>
+      form {
+        margin: 0 auto;
+        width: 500px;
+      }
+    </style>
+    <body>
+      <div>
+        <h1 id='titleHeader'>Vending Machine</h1>
+        <hr/>
+          <ul class="list-group" id="errorMessages"></ul>
+      </div>
+        <div class='column'>
+<!--Table to hold items list---------------------------------------->
+             <div id='itemsList'>
+               <h2>Available Items</h2>
+
+               <ul id="itemsTable" class="list">
+
+                </ul>
+              </div>
+          </div>
+          <div class='column' >
+
+<!--form to take input information---------------------------->
+<!--button to add change---->
+
+<form class="form-horizontal" role='form' id='changeForm'>
+<div>
+  <div>
+    <inputs class='container' id='item'>
+        <div>
+         <label id="inputCash">Total In:</label>
+       </div>
+       <div>
+              <input type="double" id="changeDisplay" value='0' required/>
+       </div>
+     <div>
+         <button type="button" id='addQuarter' class='btn btn-default'>Add .25</button>
+         <button type="button" id='addDime' class='btn btn-default'>Add .10</button>
+    <div>
+      <button type="button" id='addNickle' class='btn btn-default'>Add .05</button>
+      <button type="button" id='addPenny' class='btn btn-default'>Add .01</button>
+    </div>
+    </inputs>
+  </form>
+
+<!--Button to  make purchase ------>
+
+        <hr/>
+             <form class="form-horizontal" role='form' id='inputSelection'>
+             <div>
+               <div>
+                 <label id="messageHeader">Messages:</label>
+                 <div>
+                      <input type="text" id="messages" required/>
+                   </div>
+              </div>
+                 <inputs class='container' id='selection'>
+                    <div>
+                      <label id="add-item">Item:</label>
+                         <input type="int" id="input-item" placeholder='Item' required/>
+                        </div>
+                           <button type="button" id='makePurchase' class='btn btn-default'>Vend Item</button>
+                 </inputs>
+               </form>
+            <hr/>
+
+<!--change return----------------->
+
+<form class="form-horizontal" role='form' id='changeForm'>
+<div>
+  <div>
+    <inputs class='container' id='selection'>
+         <label id="add-item">Change:</label>
+         <div id='changeBlock'>
+                <ul type="text" id='changeReturn' >
+
+                </ul>
+         </div>
+    </inputs>
+  </form>
+
+             </hr>
+           </div>
+
+          </div>
+
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

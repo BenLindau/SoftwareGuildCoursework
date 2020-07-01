@@ -1,0 +1,8 @@
+com\sg\addressbook\Controller\Controller.class
+com\sg\addressbook\dto\Contacts.class
+com\sg\addressbook\ui\UserIOImpl.class
+com\sg\addressbook\ui\View.class
+com\sg\addressbook\dao\DaoFileImpl.class
+com\sg\addressbook\main\App.class
+com\sg\addressbook\ui\UserIO.class
+com\sg\addressbook\dao\Dao.class

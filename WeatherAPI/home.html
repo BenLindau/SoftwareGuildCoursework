@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+    </head>
+    <style>
+      form {
+        margin: 0 auto;
+        width: 500px;
+      }
+    </style>
+    <body>
+      <div>
+        <h1 id='titleHeader'>Weather App</h1>
+        <hr/>
+          <ul class="list-group" id="errorMessages"></ul>
+      </div>
+      <form class="form-horizontal" role='form' id='input-form'>
+      <div>
+          <inputs class='container' id='zipcode'>
+               <label id="add-zipcode">Zip Code:</label>
+                    <input type="text" id="input-zip" placeholder="Zip" required/>
+                <div class="dropdown">
+                  <label>Units</label>
+                    <select id='units'>
+                      <option value='imperial'>Imperial</option>
+                      <option value='metric'>Metric</option>
+                    </select>
+                  </div>
+               <button type="button" id='getWeatherButton' class='btn btn-default'>Get Weather</button>
+          </inputs>
+        </form>
+      </hr>
+
+        <div id='newWeather'>
+
+             <div id='currentWeatherConditions'>
+               <h3 id='weatherHeader'></h3>
+               
+               <table id="currentWeatherTable" class="table">
+                                           
+                           <tbody id="weatherRows">
+                             <tr>
+                               <td id='imageLine'><img id="wicon" src="" alt="Weather icon"></td>
+                               <td id='dataLine'></td>
+                              </tr>
+                          </tbody>
+                       
+                        </table>
+                   <hr/>
+             </div>
+
+             <div id='forcast'>
+
+               <h3>5 Day Forcast</h3>
+               <table id="forcastTable" class="table table-hover">
+                          <tbody id="forcastRows">
+                            
+                          </tbody>
+                       </table>
+             </div>
+        </div>
+
+      </div>
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>
